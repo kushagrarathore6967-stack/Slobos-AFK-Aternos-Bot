@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "kushagrabronah.aternos.me",
+    "port": 22188,
     "version": "",
     "try-creative": false
   },
@@ -52,10 +52,6 @@
       "enabled": true,
       "interval": 5000
     },
-    "random-jump": {
-      "enabled": true,
-      "interval": 10000
-    }
   },
   "modules": {
     "avoidMobs": true,
@@ -63,10 +59,6 @@
     "beds": false,
     "chat": true,
     "console-commands": true
-  },
-  "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
   },
   "beds": {
     "pick-up-day": false,
@@ -77,11 +69,11 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false,
       "chat": false
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
